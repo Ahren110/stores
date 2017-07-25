@@ -1,0 +1,137 @@
+<view class="we-container bg_fff {{directionClass}}">
+    <view class="we-wrapper " id="mySwiper"
+    	bindtouchstart="$bind"
+	    bindtouchmove="$bind"
+	    bindtouchend="$bind"
+	    animation="{{animationData}}">
+        <view class="we-slide">
+			<image class="wh100"  mode="aspectFit" src="../../public/images/banner/banner.jpg" alt=""/>
+		</view>
+        <view class="we-slide">slide 2</view>
+        <view class="we-slide">slide 3</view>
+    </view>
+</view>
+<view class="weui-flex icon_list bg_fff">
+	<view class="weui-flex__item pull-center">
+		<image class="bg_00b7ee radius_m"  mode="aspectFit" src="../../public/images/home/icon1.png" alt=""/>
+		<span>矿用设备</span>
+	</view>
+	<view class="weui-flex__item pull-center">
+		<image class="bg_ae5da1 radius_m"  mode="aspectFit" src="../../public/images/home/icon2.png" alt=""/>
+		<span>耗材药剂</span>
+	</view>
+	<view class="weui-flex__item pull-center">
+		<image class="bg_f19149 radius_m"  mode="aspectFit" src="../../public/images/home/icon3.png" alt=""/>
+		<span>金属矿产</span>
+	</view>
+	<view class="weui-flex__item pull-center">
+		<image class="bg_32b16c radius_m"  mode="aspectFit" src="../../public/images/home/icon4.png" alt=""/>
+		<span>能源矿产</span>
+	</view>
+</view>
+<view class="space53"></view>
+<view class="head_list bg_fff bor_b pull-center col_333">
+	<span>━━━ • </span>旗舰店展示<span> • ━━━</span>
+</view>
+<view class="stores_list bob_T26">
+	<view class="weui-flex bg_fff list-item" 
+		  data-m-class="navlink" data-link="">
+		<view><image class="mc_logo" mode="aspectFit" src="../../public/images/home/item.jpg" alt=""/></view>
+		<view class="spaceW93"></view>
+		<view class="weui-flex__item space_nowrap">
+			<view class="mc_name col_333 f_w">中航技进出口有限责任公司中航技进出口</view>
+			<view class="mc_list space_nowrap">
+				<view class="mc_item col_89">军用航空技术</view>
+				<view class="mc_item col_89">产品进出口</view>
+				<view class="mc_item col_89">国有企业</view>
+				<view class="mc_item col_89">产品进出口</view>
+				<view class="mc_item col_89">国有企业</view>
+			</view>
+		</view>
+		<view class="spaceW53"></view>
+		<view><view type="button" class="weui-badge bg_00b7ee col_fff radius_xxxs pull-center">矿用</view></view>
+		<view class="spaceW93"></view>
+		<view class="pt_015"><view type="button" class="runIn col_comm radius_s pull-center">进店</view></view>
+	</view>
+	<view class="weui-flex flex_wrap flexH shop_list  bg_fff">
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="stores_list bob_T26">
+	<view class="weui-flex bg_fff list-item" 
+		  data-m-class="navlink" data-link="">
+		<view><image class="mc_logo" mode="aspectFit" src="../../public/images/home/item.jpg" alt=""/></view>
+		<view class="spaceW93"></view>
+		<view class="weui-flex__item space_nowrap">
+			<view class="mc_name col_333 f_w">中航技进出口有限责任公司中航技进出口</view>
+			<view class="mc_list space_nowrap">
+				<view class="mc_item col_89">军用航空技术</view>
+				<view class="mc_item col_89">产品进出口</view>
+				<view class="mc_item col_89">国有企业</view>
+				<view class="mc_item col_89">产品进出口</view>
+				<view class="mc_item col_89">国有企业</view>
+			</view>
+		</view>
+		<view class="spaceW53"></view>
+		<view><view type="button" class="weui-badge bg_00b7ee col_fff radius_xxxs pull-center">矿用</view></view>
+		<view class="spaceW93"></view>
+		<view class="pt_015"><view type="button" class="runIn col_comm radius_s pull-center">进店</view></view>
+	</view>
+	<view class="weui-flex flex_wrap flexH shop_list  bg_fff">
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="shop_item disiblock">
+				<image class="shop_logo" mode="aspectFit" src="../../public/images/home/deb0d14bc1a98c72.jpg" alt=""/>
+				<view class="shop_font bg_fff_90">
+					<view class="shop_price col_comm f_w pull-left">￥120000</view>
+					<view class="shop_name col_89 pull-left">电解铝大颗吹头</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+

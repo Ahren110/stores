@@ -1,0 +1,104 @@
+
+
+
+
+<template name="input">
+    <view class="weui-cell weui-cell_input">
+       <view class="weui-cell__bd">
+            <input
+                type="{{ type }}"
+                class="weui-input c"
+                data-m-class="loginInput"
+                name="{{ name }}"
+                data-name="{{ name }}"
+                placeholder="请输入{{ placeholder }}"
+                bindinput="$bind"
+                bindblur="$bind"
+                bindfocus="$bind"
+                />
+        </view>
+    </view>
+</template>
+<template name="input-name">
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">{{ placeholder }}</view>
+        <view class="weui-cell__bd">
+            <input
+                type="{{ type }}"
+                class="weui-input {{ class }}"
+                data-m-class="loginInput"
+                name="{{ name }}"
+                data-name="{{ name }}"
+                placeholder="请输入{{ placeholder }}"
+                bindinput="$bind"
+                bindblur="$bind"
+                bindfocus="$bind"
+                />
+        </view>
+
+    </view>
+</template>
+<template name="input-sms">
+    <view class="weui-cell weui-cell_input">
+       <view class="weui-cell__bd">
+            <input
+                type="{{ type }}"
+                class="weui-input {{ class }}"
+                data-m-class="loginInput"
+                name="{{ name }}"
+                data-name="{{ name }}"
+                value="{{ loginD[name] }}"
+                placeholder="请输入{{ placeholder }}"
+                bindinput="$bind"
+                bindblur="$bind"
+                bindfocus="$bind"
+                />
+        </view>
+        <view class="weui-cell__ft">
+            <view class="weui-vcode-btn"  data-m-class="getcode" bindtap="$bind">
+            {{  t["stop"]<1? t["t"]:"获取验证码" }}
+            </view>
+        </view>
+    </view>
+</template>
+<template name="input-code">
+    <view class="weui-cell weui-cell_input">
+       <view class="weui-cell__bd">
+            <input
+                type="{{ type }}"
+                class="weui-input {{ class }}"
+                data-m-class="loginInput"
+                name="{{ name }}"
+                data-name="{{ name }}"
+                value="{{ loginD[name] }}"
+                placeholder="请输入{{ placeholder }}"
+                bindinput="$bind"
+                bindblur="$bind"
+                bindfocus="$bind"
+                />
+        </view>
+        <view class="weui-cell__ft">
+            <image class="weui-vcode-img"
+                src="http://www.heysky.com/captcha"
+                style="width: 80px">
+            </image>
+        </view>
+    </view>
+</template>
+<template name="textarea">
+    <view class="weui-cell weui-cell_input weui-cell_text">
+        <view class="weui-cell__hd">{{ placeholder }}</view>
+        <view class="weui-cell__bd">
+            <textarea
+                class="weui-textarea"
+                data-m-class="loginInput"
+                name="{{ name }}"
+                data-name="{{ name }}"
+                placeholder="请输入{{ placeholder }}"
+                bindinput="$bind"
+                bindblur="$bind"
+                bindfocus="$bind"
+                >{{ loginD[name] }}</textarea>
+        </view>
+    </view>
+</template>

@@ -1,0 +1,8 @@
+page{background-color:#fff}.container{padding:80rpx 0 60rpx}.icon-wrap{width:50%;height:100px;float:left;text-align:center}.icon-classname{color:#999;font-size:10px}.logo{width:240rpx;height:90rpx;display:block;margin:0 auto 68rpx}.weui-form{border:0;padding:0 134rpx}.weui-input,.weui-label,.weui-vcode-btn{font-size:32rpx;color:#555}.weui-label{width:48px}.weui-vcode-btn{height:24px;background:#00a5f7;border-radius:6px;line-height:24px;font-size:12px;color:#fff;border:0}.weui-vcode-btn:active{color:#ddd}.weui-input{padding:0 8px}.weui-cell_input{padding:14px 0 0}.weui-cell_input::before{left:0}.weui-cells::before{border-width:0}.login-btn{margin-top:20rpx;height:78rpx;border:0;border-radius:16rpx;line-height:78rpx}.forgetpwd,.regpwd{border:0}.forgetpwd view,.regpwd view{padding:16rpx 0;color:#9f9f9f;text-align:right;font-size:32rpx}.regpwd view{padding-top:32rpx;color:#1c1c1c;text-align:center;font-size:32rpx}.weui-loadmore{margin-top:140rpx;margin-bottom:36rpx;width:50%;height:0;line-height:inherit}.icon{margin:20rpx;font-size:40rpx}.panel_other{margin:0 auto;width:56%;border:0}.panel_other .icon-wrap{height:inherit}.panel_other .icon{margin:0 auto 14rpx;width:70rpx;height:70rpx;border-radius:70rpx;background:#fff;text-align:center;line-height:70rpx}.panel_other .icon::before{color:#555;font-size:70rpx}.panel_other .icon-classname{font-size:29rpx}
+
+
+.weui-cell_input.weui-cell_text .weui-cell__hd{
+    height:140rpx;
+}
+
+.weui-textarea{height:140rpx;padding:0 8px;}
