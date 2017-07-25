@@ -1,0 +1,18 @@
+view, scroll-view, swiper, swiper-item, icon, text, progress, button, checkbox-group, checkbox, form, input, label, picker, radio-group, radio, slider, switch, action-sheet, action-sheet-item, action-sheet-cancel, modal, toast, loading, navigator, audio, image, video, map, canvas { font-size: 12px; }
+@import '../../public/comm/form/form.wxss';
+page .img_bg { width: 100%; height: 100%; position: fixed; z-index: -1; top: 0; opacity: 0.55; }
+.weui-cell_input { position: relative; }
+.wx_tips { position: absolute; bottom: -30px; right: -10px; z-index: 999999; font-size: 11px; min-width: 12px; padding: 3px 8px; line-height: 20px; color: #fff; background-color: #000; border-radius: 3px; }
+.wx_tips:before { position: absolute; width: 0; height: 0; border-width: 12px; border-color: transparent; border-style: dashed; content: " "; right: 5px; border-left-style: solid; border-left-color: #000; border-top-width: 16px; top: -10px; z-index: -1; }
+form { display: block; }
+.weui-cell_input { padding: 0; margin-top: 14px; border: 1px #fff solid; border-radius: 5px; }
+.weui-cells_after-title { background: rgba(255, 255, 255, .6); border-radius: 5px; }
+.weui-cells_after-title::before, .weui-cells_after-title::after { border-width: 0; }
+.weui-cell_input input { font-size: 28rpx; }
+.weui-vcode-btn { margin-right: 10rpx; }
+.img_logo { width: 300rpx; height: 240rpx; }
+.logo_gb { text-align: center; margin-bottom: 40rpx; }
+.logo_gb { margin: 80rpx 0 40rpx; }
+.weui-form .weui-btn { margin-top: 30rpx; }
+.tel_then { font-size: 36rpx; }
+.tel_msg { font-size: 42rpx; color: #f00; }
