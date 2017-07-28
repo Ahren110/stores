@@ -1,0 +1,35 @@
+<import src="../../public/comm/htmlTml.wxml"/>
+<view class="weui-flex flexH flexV  logo hei355">
+    <image mode="aspectFit" alt="" src="../../public/images/comm/logo.png"/>
+</view>
+<view class="container"> 
+    <form class="weui-form weform font_f" id="formSubmit" bindsubmit="$bind">
+		<input class="font_f input col_a0 bor_ca0 mb_25" 
+			placeholder="手机号/用户名" 
+			placeholder-class="font_f col_a0"/>		
+		<input class="font_f input col_a0 bor_ca0 mb_20" 
+			placeholder="请输入密码" 
+			placeholder-class="font_f col_a0"/>		
+		<checkbox-group 
+			class="checkbox {{$cs.checkbox.$class}}" 
+			data-m-class="checkbox" bindchange="$bind">
+            <label class="checkbox_label col_00afec" for="checkbox">
+				<checkbox class="input " id="checkbox" checked name="aaa" value="on" />
+				<view class="ipt_after"></view>
+				<text>自动登录</text>
+			</label>
+        </checkbox-group>
+		<button class="weui-btn bg_comm col_fff mt_90" formType="submit">
+			下一步
+		</button>
+		<view class="weui-flex otherFrm mt_45">
+			<view class="weui-flex__item pull-left">
+				<view class="weui-btn bg_none col_a0 mt_90">忘记密码</view>
+			</view>
+			<view class="weui-flex__item pull-right ">
+				<view class="weui-btn bg_none col_00afec mt_90">注册</view>
+			</view>
+		</view>
+	</form>
+	
+</view>    

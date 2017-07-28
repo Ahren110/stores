@@ -1,0 +1,36 @@
+/* views/login/index.wxss */
+page{background:#fff;}
+.logo{height:355rpx;}
+.logo image{width:309rpx;height:120rpx;}
+.weui-form{padding:0 52rpx;display: block;}
+ input.input{
+	width:646rpx;
+	height:95rpx;line-height:95rpx;
+	min-height:95rpx;
+	border-radius:23.44rpx;
+	padding:0 30rpx;
+	font-size:33.33rpx;
+}
+checkbox.input{width:35rpx;height: 35rpx;font-size:12rpx;}
+#formSubmit{}
+
+.checkbox{color:#00afec;font-size:33.33rpx;}
+.checkbox_label .input{width:35rpx;height: 35rpx;overflow: hidden;}
+.checkbox_label{position:relative;height: 35rpx;display:inline-block;overflow:hidden;}
+.checkbox_label text{height: 35rpx;line-height:35rpx;display:inline-block;vertical-align:top;padding-left:18rpx;}
+.checkbox_label .ipt_after{
+	position: absolute;left:0;top:0;z-index:999;
+	content:" ";
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	width:35rpx;height: 35rpx;
+	background:url(../../public/images/checkbox.png) left top no-repeat;
+	background-size: 100% auto;
+}
+.checkbox.open .ipt_after{
+	background-position:left bottom;
+}
+
+.weui-btn.bg_comm{border-radius:23.44rpx;}
+
+.otherFrm .weui-btn{font-size:33rpx;}

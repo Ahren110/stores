@@ -1,0 +1,11 @@
+@import '../../public/comm/swiper/swiper.wxss';
+.store_header{height:220rpx;display: table-cell;width:20rem;vertical-align: middle}
+.store_header image{width: 100rpx;height:100rpx;vertical-align: middle;border-radius: 50%}
+.store_name{color: #fff;font-size: 32rpx;padding-top:26rpx}
+.content{padding: 30rpx}
+.product,.serve{float: left;width:50%;background: #fff;font-size: 32rpx}
+.info-con{padding: 0 10rpx;}
+.info{font-size: 26rpx;line-height: 50rpx;padding-top: 26rpx}
+.title{margin-top:30rpx;font-weight: bold}
+
+

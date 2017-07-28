@@ -1,0 +1,29 @@
+
+page{background:#fff;}
+.logo image{width:166rpx;height:166rpx;}
+checkbox.input{width:35rpx;height: 35rpx;font-size:12rpx;}
+#formSubmit{}
+
+.checkbox{color:#00afec;font-size:33.33rpx;}
+.checkbox_label .input{width:35rpx;height: 35rpx;overflow: hidden;}
+.checkbox_label{position:relative;height: 35rpx;display:inline-block;overflow:hidden;}
+.checkbox_label text{height: 35rpx;line-height:35rpx;display:inline-block;vertical-align:top;padding-left:18rpx;}
+.checkbox_label .ipt_after{
+	position: absolute;left:0;top:0;z-index:999;
+	content:" ";
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	width:35rpx;height: 35rpx;
+	background:url(../../public/images/checkbox.png) left top no-repeat;
+	background-size: 100% auto;
+}
+.checkbox.open .ipt_after{
+	background-position:left bottom;
+}
+
+.weui-btn.bg_comm{border-radius:23.44rpx;height:90rpx;line-height:90rpx;}
+
+.otherFrm .weui-btn{font-size:33rpx;height:inherit;line-height: inherit;}
+
+
+.weui-form .getsms .weui-btn{width:230rpx;margin-left:20rpx;font-size:28rpx;}

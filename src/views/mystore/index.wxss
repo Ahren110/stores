@@ -1,0 +1,19 @@
+@import '../../public/comm/swiper/swiper.wxss';
+.header{display: table;background: #fff;padding: 30rpx 0 26rpx}
+.hea-left,.hea-right{display: table-cell;vertical-align: middle}
+.hea-left{text-align: center;width:7rem}
+.hea-left image{width: 120rpx;height:120rpx;border-radius: 50%;border:1px solid #fdc3c8}
+.phone-num{font-size: 26rpx;margin-top: 6rpx}
+.hea-right{font-size: 36rpx;width:13rem}
+.hea-right .num{color:#ec6941}
+.text{display: inline-block;width:160rpx} 
+.text1{letter-spacing: 0.46em;margin-bottom: 16rpx}  
+.ident{background: #d1d1d1;padding: 24rpx 0;font-size: 34rpx}
+.title{background: #e8e8ed;padding: 22rpx 0 22rpx 30rpx;font-size: 32rpx}
+.item{font-size: 30rpx;width: 50%;float:left;padding: 32rpx 0 32rpx 120rpx;background: url(../../public/images/icon/icon.png)26rpx center no-repeat;background-size: 20%;border-bottom: 1rpx solid #e8e8ed}
+.item .info{font-size: 28rpx;padding-top: 16rpx}
+.item:nth-child(2n+1){border-right: 1rpx solid #e8e8ed}
+.footer{position: fixed;left:0;bottom: 0;width: 100%}
+.footer .left,.footer .right{padding: 40rpx 0 40rpx 120rpx;float: left;width:50%;font-size: 34rpx}
+.footer .left{background: url(../../public/images/icon/icon2.png)46rpx center no-repeat;background-size: 13%;color:#666}
+.footer .right{background: url(../../public/images/icon/icon3.png)46rpx center no-repeat;background-size: 13%;color:#666}

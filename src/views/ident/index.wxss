@@ -1,0 +1,41 @@
+page{background-color: #e9e8ee;}
+.weui-form .input,.height95{height: 60rpx;min-height: 60rpx;}
+.height95{line-height:65rpx;}
+.weui-form .textarea{height: 150rpx;min-height: 150rpx;width: inherit}
+.weui-form .input,
+.weui-form .textarea,
+.weui-form button.input{font-size: 26rpx;line-height: 65rpx;border-radius: 30rpx;position: relative;overflow: hidden;}
+.weui-form .textarea{padding: 20rpx 30rpx;}
+.weui-label,.weui-label1{font-size: 27.88rpx;width: 135rpx;}
+.weui-form .weui-label1{width: 115rpx;}
+.weui-form .input:not(.no_after):after,
+.weui-form .textarea:not(.no_after):after,
+.weui-form button.input:not(.no_after):after{content: "*";position: absolute;right: 0;top: 0;z-index: 99;color: #f00;line-height: 65rpx;width: 50rpx;text-align: center;font-size: 33rpx;}
+.ipt_radio .radio{font-size: 28rpx;}
+.weui-form button.input:after{border: 0;}
+.weui-form button.input{background:#fff;color:#a0a0a0;}
+
+
+.upload{float:left;}
+
+.weui-uploader__file{
+	padding:12rpx;border-radius:10rpx;
+	-webkit-box-shadow: 3px 3px 3px rgba(95, 95, 95, .5);  
+  -moz-box-shadow: 3px 3px 3px rgba(95, 95, 95,  .5);  
+  box-shadow: 3px 3px 3px rgba(95, 95, 95, .5);  
+}
+.weui-uploader__file .weui-uploader__img{width:165rpx;height:165rpx;}
+
+.upload image{width:60rpx;height:60rpx;display: inline-block;}
+
+.upload .input.bg_comm{
+	clear: both;
+	background:#d41221;border:0;color:#fff;
+	width:240rpx;height:50rpx;line-height:50rpx;min-height:50rpx;
+	display:inline-block;
+}
+
+.fontUp{font-size:20rpx;clear: left;}
+
+
+.clear{clear: both;}

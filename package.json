@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "矿业旗舰店",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ahren110/stores.git"
-  },
   "keywords": [
     "旗舰店",
     "qjd",
@@ -16,10 +12,6 @@
   ],
   "author": "Sivan Shi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ahren110/stores/issues"
-  },
-  "homepage": "https://github.com/Ahren110/stores#readme",
   "dependencies": {
   	"gulp": "^3.9.1",
     "gulp-px2rpx": "0.0.4",

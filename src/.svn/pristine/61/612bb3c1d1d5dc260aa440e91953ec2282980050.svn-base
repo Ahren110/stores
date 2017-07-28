@@ -1,0 +1,9 @@
+@import '../../public/comm/swiper/swiper.wxss';
+.tit{font-weight: bold;font-size: 34rpx;padding: 26rpx 0}
+.text{font-size: 34rpx;padding-bottom: 20rpx}
+form{padding:0 100rpx}
+.weui-cell{margin-top: 26rpx}
+.weui-label{font-size: 32rpx;color: #333}
+input{border-bottom: 0.5rpx solid #afafaf;font-size: 32rpx} 
+.weui-cell:before, .weui-cells:before { top: 0; border-top: 0}
+.weui-btn{border: 1px solid #d51222}

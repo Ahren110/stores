@@ -1,0 +1,44 @@
+<import src="../../public/comm/htmlTml.wxml"/>
+<view class="weui-flex flexH flexV  logo">
+    <image mode="aspectFit" alt="" src="../../public/images/comm/avatar.png"/>
+</view>
+<view class="container"> 
+    <form class="weui-form hei355 weform font_f" id="formSubmit" bindsubmit="$bind">
+		<input class="font_f input col_a0 bor_ca0 mb_20" 
+			placeholder="请输入手机号码" 
+			placeholder-class="font_f col_a0"/>		
+		<view class="weui-flex getsms">
+			<view class="weui-flex__item pull-left">
+				<input class="font_f input col_a0 bor_ca0 mb_20" 
+					placeholder="请输入验证码" 
+					placeholder-class="font_f col_a0"/>	
+			</view>
+			<view class="pull-right">
+				<button class="weui-btn bg_comm col_fff mt_90">获取验证码</button>
+			</view>
+		</view>
+		<input class="font_f input col_a0 bor_ca0 mb_20" 
+			placeholder="设置密码" 
+			placeholder-class="font_f col_a0"/>	
+		
+		<input class="font_f input col_a0 bor_ca0 mb_20" 
+			placeholder="确认密码" 
+			placeholder-class="font_f col_a0"/>		
+		<checkbox-group 
+			class="checkbox {{$cs.checkbox.$class}}" 
+			data-m-class="checkbox" bindchange="$bind">
+            <label class="checkbox_label col_00afec" for="checkbox"><checkbox class="input opacity_00" id="checkbox" checked name="aaa" value="on" /><view class="ipt_after"></view><text>我同意《矿业圈网站服务协议》</text></label>
+        </checkbox-group>
+		<button class="weui-btn bg_comm col_fff mt_90" formType="submit">
+			下一步
+		</button>
+		<view class="weui-flex otherFrm mt_45">
+			<view class="weui-flex__item pull-left">
+			</view>
+			<view class="weui-flex__item pull-right ">
+				<view class="weui-btn bg_none col_00afec mt_90">我有账户，登录</view>
+			</view>
+		</view>
+	</form>
+	
+</view>    

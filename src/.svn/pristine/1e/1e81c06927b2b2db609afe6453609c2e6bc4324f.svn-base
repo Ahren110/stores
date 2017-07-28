@@ -1,0 +1,21 @@
+{
+	"pages": [
+		"views/register/index",
+        "views/login/index",
+		"views/home/index",
+		"views/user/index"
+	],
+	"window": {
+		"backgroundColor": "#d41221",
+		"navigationBarBackgroundColor": "#d41221",
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "矿业旗舰店"
+	},
+	"networkTimeout": {
+		"connectSocket": 10000,
+		"downloadFile": 10000,
+		"request": 10000,
+		"uploadFile": 10000
+	},
+	"debug": false
+}

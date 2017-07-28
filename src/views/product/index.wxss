@@ -1,0 +1,12 @@
+@import '../../public/comm/swiper/swiper.wxss';
+.store_header{height:220rpx;display: table-cell;width:20rem;vertical-align: middle}
+.store_header image{width: 100rpx;height:100rpx;vertical-align: middle;border-radius: 50%}
+.store_name{color: #fff;font-size: 32rpx;padding-top:26rpx}
+.content{padding: 30rpx}
+.product,.serve{float: left;width:50%;background: #fff;font-size: 32rpx}
+.item{float:left;width: 50%;margin-top:30rpx}
+.item image{max-width: 100%;}
+.item .tit{font-size: 32rpx;padding: 16rpx 16rpx 0}
+.item .num{font-weight: bold;padding: 16rpx;}
+.item:nth-child(2n-1){padding-right: 10rpx}
+.item:nth-child(2n+2){padding-left: 10rpx}

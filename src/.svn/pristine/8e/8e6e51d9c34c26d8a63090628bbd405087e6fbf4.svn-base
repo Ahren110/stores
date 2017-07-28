@@ -1,0 +1,158 @@
+<view class="container">
+	<form class="weui-form weform1" data-action="../share/index" id="formSubmit" bindsubmit="$bind">
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">企业名称：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入密码" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex height95 pull-right mr_25">
+				<view class="weui-label font_f com_overflow">企业简介：</view>
+			</view>
+			<view class="weui-flex__item">
+				<textarea class="font_f textarea hei150 col_fff bg_fff col_a0" placeholder="请输入企业简介" placeholder-class="font_f col_a0" placeholder-style="margin:30rpx;" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">企业类型：</view>
+			</view>
+			<view class="weui-flex__item">
+				<radio-group class="ipt_radio" data-m-class="ipt_radio" bindchange="$bind">
+					<label class="radio" wx:for="{{ formData['items'] }}" wx:for-item="itemsName">
+						<radio class="scale7" value="{{ itemsName.name }}" 
+							   checked="{{ itemsName.checked }}"/>{{ itemsName.value }}
+					</label>
+				</radio-group>
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">种类：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input bg_fff col_a0  pull-center" placeholder="请输入种类" placeholder-class="font_f col_a0 pull-center" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex height95 pull-right mr_25">
+				<view class="weui-label font_f com_overflow">企业logo：</view>
+			</view>
+			<view class="weui-flex__item">
+				<view class="weui-uploader">
+				  	<view class="weui-uploader__files" id="uploaderFiles">
+						<view class="weui-uploader__file bg_fff">
+							<image class="weui-uploader__img" src="../../public/images/comm/deftTu.png" mode="aspectFill" />
+						</view>
+						<view class="upload pull-center ml_30">
+							<image class="weui-uploader__img mt_20" src="../../public/images/comm/jia.png" mode="aspectFill" />
+							<view class="clear"></view>
+							<button class="input bg_comm mt_20 col_fff" type="default">点击添加</button>
+							<view class="clear"></view>
+							<view class="fontUp col_comm mt_10">推荐 500*500.png/jpg/jpeg</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex height95 pull-right mr_25">
+				<view class="weui-label font_f com_overflow">营业执照：</view>
+			</view>
+			<view class="weui-flex__item">
+				<view class="weui-uploader">
+				  	<view class="weui-uploader__files" id="uploaderFiles">
+						<view class="weui-uploader__file bg_fff">
+							<image class="weui-uploader__img" src="../../public/images/comm/deftTu.png" mode="aspectFill" />
+						</view>
+						<view class="upload pull-center ml_30">
+							<image class="weui-uploader__img mt_20" src="../../public/images/comm/jia.png" mode="aspectFill" />
+							<view class="clear"></view>
+							<button class="input bg_comm mt_20 col_fff" type="default">点击添加</button>
+							<view class="clear"></view>
+							<view class="fontUp col_comm mt_10">推荐 500*500.png/jpg/jpeg</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">成立时间：</view>
+			</view>
+			<view class="weui-flex__item">
+				<picker class="weui-btn" mode="date" value="{{formData.date}}" end="2017-09-01" bindchange="$bind">
+					<button class="input bg_fff col_a0" type="default">2017年12月12日</button>
+				</picker>
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">单位地址：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入单位地址" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">注册资本：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input no_after col_fff bg_fff col_a0" placeholder="请输入注册资本" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">主营产品：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入主营产品" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">联系人：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="姓名" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label weui-label1 font_f">职务：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="职务" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">联系电话：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入联系电话" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">邮箱地址：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入邮箱" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<view class="weui-flex mb_30 mt_30">
+			<view class="weui-flex flexV pull-right mr_25">
+				<view class="weui-label font_f com_overflow">企业官网：</view>
+			</view>
+			<view class="weui-flex__item">
+				<input class="font_f input col_fff bg_fff col_a0" placeholder="请输入企业官网" placeholder-class="font_f col_a0" bindfocus="$bind" bindblur="$bind" bindinput="$bind" bindconfirm="$bind" />
+			</view>
+		</view>
+		<button class="weui-btn bg_comm col_fff mt_45 mb_90" formType="submit">
+			提交
+		</button>
+	</form>
+</view>

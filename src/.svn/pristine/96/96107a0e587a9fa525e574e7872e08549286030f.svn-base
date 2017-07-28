@@ -1,0 +1,24 @@
+<view>
+  <view class="store_header pull-center bg_comm">
+    <image class="" src="../../public/images/home/item.jpg"></image>
+    <view class="store_name space_nowrap">中航技进出口有限责任公司</view>
+  </view>
+</view>
+<view class="content">
+  <view class="overflow_h">
+    <button class="product">产品</button>
+    <button class="serve">项目服务</button>
+  </view>
+  <view class="info-con col_333 ">
+    <view class="title">公司简介</view>
+    <view class="col_89 info">中航技进出口有限责任公司（简称中航技，英文缩写CATIC）的前身是中国航空技术进出口总公司，创建于1979年，是国家授权的以军用航空技术和产品进出口为核心业务的大型国有企业，累计进出口贸易额超过400亿美元。</view>
+    <view class="title">联系信息</view>
+    <view class="col_89 info">
+      <view class="classname">电话：*********</view>
+      <view class="classname">邮箱：********</view>
+      <view class="classname">地址：北京市大兴区经济开发区宏达北路16号</view>
+    </view>
+  </view>
+</view>
+
+

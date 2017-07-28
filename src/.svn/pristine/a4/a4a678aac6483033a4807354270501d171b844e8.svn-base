@@ -1,0 +1,67 @@
+<view class="we-container bg_fff {{directionClass}}">
+    <view class="we-wrapper " id="mySwiper"
+    	bindtouchstart="$bind"
+	    bindtouchmove="$bind"
+	    bindtouchend="$bind"
+	    animation="{{animationData}}">
+        <view class="we-slide"  wx:for="{{imgUrls}}">
+			<image class="wh100" mode="aspectFit" src="{{item}}" alt=""/>
+		</view>
+    </view>
+</view>
+<view class="viewbox bg_fff">
+	<view class="weui-flex name_temp mt_40 ml_40 mr_40 mb_15 ">
+		<view class="mr_30"><view type="button" class="weui-badge bg_f19149 col_fff radius_xxxs pull-center">矿用</view></view>
+		<view class="weui-flex__item font_33 col_333 com_overflow mb_15">
+			矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用矿用
+		</view>
+	</view>
+	<view class="box_desc col_89 ml_40 mr_40 mb_15">简况品质：ahsj h、奥斯卡</view>
+	<view class="box_price col_comm ml_40 mr_40 mb_15">￥33000,224155</view>
+	<view class="box_desc  col_89 ml_40 mr_40 mb_30 com_overflow">原价：<text class="through">￥1245</text></view>
+</view>
+<view class="viewbox bg_f3">
+	<view class="ml_35 mr_35 mt_30 mb_30 font_30 com_overflow">规格：Au金20%g/t ,Ag银2000g/t As砷0.12%</view>
+	<view class="lineX"></view>
+	<view class="weui-flex mt_30 mb_30 ml_3 5 mr_35">
+		<view class="weui-flex__item">
+			<view class="font_30 com_overflow">总销量：0吨</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="font_30 com_overflow">总销量：0吨</view>
+		</view>
+	</view>
+	<view class="weui-flex mb_30 ml_35 mr_35">
+		<view class="weui-flex__item">
+			<view class="font_30 com_overflow">总销量：0吨</view>
+		</view>
+		<view class="weui-flex__item">
+			<view class="font_30 com_overflow">总销量：0吨</view>
+		</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+<view class="weui-flex detail-nav">
+ 	<view class="temp">
+ 		<image class="weui-grid__icon weicon" src="../../public/images/comm/store1.png" /> 
+ 	</view>
+	<view class="weui-flex__item bg_f19149">
+		<view class="wegrid">
+			<image class="weui-grid__icon weicon" src="../../public/images/comm/wen.png" />
+			<view class="weui-grid__label welabel col_fff">询价</view>
+		</view>
+	</view>
+	<view class="weui-flex__item bg_comm">
+		<view class="wegrid">
+			<image class="weui-grid__icon weicon" src="../../public/images/comm/wen.png" />
+			<view class="weui-grid__label welabel col_fff">询价</view>
+		</view>
+	</view>
+</view>

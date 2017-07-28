@@ -1,0 +1,60 @@
+<view class="bg_fff font_f">
+  <view class="tit pull-center col_comm">恭喜您注册成功！</view>
+  <view class="text col_comm pull-center">立即完善信息，可获得开旗舰店各项权益</view>
+  <form>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" >公司名称：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" for="a">公司地址：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" id="a" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" for="a">个人姓名：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" id="a" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" for="a">电子邮箱：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" id="a" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" for="a">指定联系人：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" id="a" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <label class="weui-label" for="a">联系方式：</label>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" id="a" placeholder-class="font_f col_a0"/>
+      </view>
+    </view>
+    <view class="weui-btn-area">
+      <button class="weui-btn col_comm" bindtap="showTopTips">登录</button>
+      <button class="weui-btn bg_comm col_fff" bindtap="showTopTips">认证开店</button>
+    </view>
+  </form>
+</view>
+
+

@@ -1,0 +1,39 @@
+{
+	"pages": [
+		"views/ident/index",
+		"views/home/index",
+		"views/register/index",
+        "views/login/index",
+		"views/user/index",
+		"views/logs/index"
+	],
+	"window": {
+		"backgroundColor": "#d41221",
+		"navigationBarBackgroundColor": "#d41221",
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "矿业旗舰店"
+	},
+	 "tabBar": {  
+		"color": "#ababab",  
+		"selectedColor": "#00afec",  
+		"borderStyle": "black" ,
+		"list": [{  
+			"selectedIconPath": "public/images/comm/home_on.png",  
+			"iconPath": "public/images/comm/home.png",  
+			"pagePath": "views/home/index",  
+			"text": "矿业旗舰店"  
+		}, {  
+			"selectedIconPath": "public/images/comm/user_on.png",  
+			"iconPath": "public/images/comm/user.png",  
+			"pagePath": "views/logs/index",  
+			"text": "我的店铺"  
+		}]  
+	 },
+	"networkTimeout": {
+		"connectSocket": 10000,
+		"downloadFile": 10000,
+		"request": 10000,
+		"uploadFile": 10000
+	},
+	"debug": false
+}

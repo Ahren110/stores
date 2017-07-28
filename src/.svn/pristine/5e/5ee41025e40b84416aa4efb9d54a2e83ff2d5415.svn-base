@@ -1,0 +1,75 @@
+<view class="bg_fff">
+  <view class="header">
+    <view class="hea-left">
+      <view>
+        <image src="../../public/images/home/item.jpg"></image>
+        <view class="phone-num col_5e">13333226565</view>
+      </view>
+    </view>
+    <view class="hea-right col_5e">
+      <view><text class="text text1">总资产</text>：<text class="num">0.00</text></view>
+      <view><text class="text">可用余额</text>：<text class="num">0.00</text></view>
+    </view>
+  </view>
+  <view class="pull-center col_fff ident">立即免费认证，矿业旗舰店</view>
+  <view class="title col_43">旗舰店管理</view>
+  <view class="overflow_h">
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+  </view>
+  <view class="title col_43">订单管理</view>
+  <view class="overflow_h">
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">发布产品</view>
+      <view class="info col_89">用户发布的产品</view>
+    </view>
+    <view class="item">
+      <view class="tit col_43">服务管理</view>
+      <view class="info col_89">用户发布服务管理</view>
+    </view>
+  </view>
+  <view class="footer bg_fff">
+    <view class="left">矿业旗舰店</view>
+    <view class="right">我的店铺</view>
+  </view>
+</view>
+
+

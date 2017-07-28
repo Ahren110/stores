@@ -1,0 +1,45 @@
+<view>
+  <view class="store_header pull-center bg_comm">
+    <image class="" src="../../public/images/home/item.jpg"></image>
+    <view class="store_name space_nowrap">中航技进出口有限责任公司</view>
+  </view>
+</view>
+<view class="content">
+  <view class="overflow_h">
+    <button class="product">产品</button>
+    <button class="serve">项目服务</button>
+  </view>
+  <view class="overflow_h">
+    <view class="item">
+      <view class="bg_fff">
+        <image src="../../public/images/home/deb0d14bc1a98c72.jpg" mode="widthFix"></image>
+        <view class="tit col_89 space_nowrap">电解铝打壳锤头</view>
+        <view class="num col_comm">¥:<text>12000.00</text></view>
+      </view>  
+    </view>
+    <view class="item">
+      <view class="bg_fff">
+        <image src="../../public/images/home/deb0d14bc1a98c72.jpg" mode="widthFix"></image>
+        <view class="tit col_89 space_nowrap">电解铝打壳锤头</view>
+        <view class="num col_comm">¥:<text>12000.00</text></view>
+      </view>  
+    </view>
+    <view class="item">
+      <view class="bg_fff">
+        <image src="../../public/images/home/deb0d14bc1a98c72.jpg" mode="widthFix"></image>
+        <view class="tit col_89 space_nowrap">电解铝打壳锤头</view>
+        <view class="num col_comm">¥:<text>12000.00</text></view>
+      </view>  
+    </view>
+    <view class="item">
+      <view class="bg_fff">
+        <image src="../../public/images/home/deb0d14bc1a98c72.jpg" mode="widthFix"></image>
+        <view class="tit col_89 space_nowrap">电解铝打壳锤头</view>
+        <view class="num col_comm">¥:<text>12000.00</text></view>
+      </view>  
+    </view>
+
+  </view>
+</view>
+
+
