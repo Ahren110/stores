@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
   	"gulp": "^3.9.1",
-    "gulp-px2rpx": "0.0.4",
+    "gulp-px2rpx": "0.2.2",
     "wept": "^0.9.1"
   }
 }
